@@ -1,0 +1,7 @@
+{
+  "name": "YeinerTaller",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

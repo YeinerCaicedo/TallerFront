@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>MostrarFacturas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list [inset]="true">
+    <ion-item class="inicio">
+      <ion-label>Categoría</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>id: <b>2001</b> </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Nombre: <b>Caro</b> </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-list [inset]="true">
+    <ion-item class="inicio">
+      <ion-label>Producto</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>id: <b>11292</b> </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Nombre: <b>Camisa</b> </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Detalle: <b>Blanca</b> </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Categoría_iD: <b>2001</b> </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Precio: <b>12000</b> </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-list [inset]="true">
+    <ion-item class="inicio">
+      <ion-label>Item</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>id: <b>10500024</b> </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Detalle: <b>2</b> </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Producto_iD: <b>11292</b> </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-item>
+    <ion-row>
+      <ion-col><ion-button [routerLink]="['/create']" routerLinkActive="router-link-active" >+</ion-button></ion-col>
+      <ion-col><ion-button [routerLink]="['/select']" routerLinkActive="router-link-active" >INICIO</ion-button></ion-col>
+    </ion-row>
+  </ion-item>
+</ion-content>

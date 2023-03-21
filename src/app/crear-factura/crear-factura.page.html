@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>CrearFactura</ion-title>
+  </ion-toolbar>
+</ion-header>
+<br>
+
+<ion-label>CATEGORÍA</ion-label>
+<ion-content>
+  <ion-item>
+    <ion-input type="text" placeholder="Nombre" class="custom"></ion-input>
+  </ion-item>
+</ion-content>
+
+<ion-label>PRODUCTO</ion-label>
+<ion-content>
+  <ion-item>
+    <ion-input type="text" placeholder="Nombre" class="custom"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input type="text" placeholder="Detalle" class="custom"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input type="text" placeholder="Categoria_iD" class="custom"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input type="number" placeholder="Precio" class="custom"></ion-input>
+  </ion-item>
+</ion-content>
+<br>
+
+<ion-label>ITEM</ion-label>
+<ion-content>
+  <ion-item>
+    <ion-input type="text" placeholder="Detalle" class="custom"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input type="text" placeholder="Producto_iD" class="custom"></ion-input>
+  </ion-item>
+</ion-content>
+<br>
+
+<ion-item>
+  <ion-row>
+    <ion-col><ion-button [routerLink]="['/elegir']" routerLinkActive="router-link-active" >REGISTRAR</ion-button></ion-col>
+    <ion-col><ion-button [routerLink]="['/select']" routerLinkActive="router-link-active" >INICIO</ion-button></ion-col>
+  </ion-row>
+</ion-item>
